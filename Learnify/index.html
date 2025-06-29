@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learnify - MAKAUT Notes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Learnify</h1>
+<p>MAKAUT Notes & Resources Portal</p>
+<p>
+   <span style="color: #f4f4f4;"> Learnify is a student-friendly platform dedicated to providing easy access to organized study materials, subject-wise notes, and helpful video resources for MAKAUT students. Whether you're preparing for exams or catching up on lectures, Learnify simplifies your academic journey with curated content, clean design, and powerful features like search, filters, bookmarking, and dark mode — all accessible without login.
+   </span>
+  </p>
+
+    <button id="toggle-dark">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <section id="search-section">
+    <input type="text" id="search-bar" placeholder="Search notes by topic or subject..." />
+    <p>Select a department and semester to view notes.
+        Or use the search bar to find specific topics.
+        Notes will be displayed here based on your selection.
+        Click on a note title to view or download it.
+        Use the search bar to quickly find topics.
+        Stay tuned for more updates and resources!</p>
+  </section>
+
+  <section id="departments">
+    <h2>Select Department & Semester</h2>
+    <select id="department-select">
+      <option value="cse">Computer Science</option>
+      <option value="ece">Electronics & Comm</option>
+      <option value="ee">Electrical</option>
+        <option value="ce">Civil</option>
+        <option value="it">Information Technology</option>
+
+    </select>
+    <select id="semester-select">
+      <option value="1">Semester 1</option>
+      <option value="2">Semester 2</option>
+      <option value="3">Semester 3</option>
+      <option value="4">Semester 4</option>
+      <option value="5">Semester 5</option>
+      <option value="6">Semester 6</option>
+      <option value="7">Semester 7</option>
+      <option value="8">Semester 8</option>
+    
+    </select>
+    <button>Go</button>
+  </section>
+
+  <section id="notes-section">
+    <h2>Available Notes</h2>
+    <div id="notes-container">
+        
+        <p>For any queries, contact us at: <a href="mailto: learnify.studynotes@gmail.com">learnify.studynotes@gmail.com</a>
+
+      
+    </div>
+  </section>
+<section id="career-section">
+  <h2>🎯 You Might Also Like</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>“What Skills to Learn as a Student in 2025”</h3>
+      <p>Explore trending skills like Web Development, AI, and Design that boost your career.</p>
+      <a href="https://youtu.be/Eq8JgI3HmjI?si=QXRG6iXuUzLf0nFh" target="_blank">Watch Now</a>
+    </div>
+
+    <div class="card">
+    <h3>How to Take Smart Notes</h3>
+      <p>Discover an effective method to organize and retain your notes for deeper understanding and better exam prep.</p>
+      <a href="https://youtu.be/JnS3g68zCXw?si=-N--g1qfgPPlljJh" target="_blank">Watch Now</a>
+    </div>
+
+    <div class="card">
+      <h3>“Atomic Habits Summary” – James Clear's productivity hacks</h3>
+      <p>Learn simple, science-backed strategies to build good study habits and break bad ones for long-term success.</p>
+      <a href="https://youtu.be/NSZ90t4WJ_k?si=F89gdejZT0eOC4-I" target="_blank">Watch Now</a>
+    </div>
+
+     <div class="card">
+    <h3>Deep Work” techniques by Cal Newport</h3>
+      <p> A productivity method focused on intense, distraction-free concentration to produce high-quality work efficiently.</p>
+      <a href="https://youtu.be/f7V76Ky-_v8?si=uC5DB87pz5H6jXWr" target="_blank">Watch Now</a>
+    </div>
+
+     <div class="card">
+    <h3>“Guided Meditation for Students” – Headspace or Calm</h3>
+      <p>Audio sessions designed to reduce stress and improve focus, tailored to student needs.</p>
+      <a href="https://youtu.be/C8SUIdLkUuE?si=tftoaua3oN1jiaWR" target="_blank">Watch Now</a>
+    </div>
+
+     <div class="card">
+    <h3>Active Recall & Spaced Repetition” explained</h3>
+      <p>A study strategy combining frequent self-testing and strategically timed reviews to enhance long-term memory retention.</p>
+      <a href="https://youtu.be/IyvlgRf7u3Y?si=KXUaf5ooK5Gilwnx" target="_blank">Watch Now</a>
+    </div>
+  </div>
+</section>
+
+  <section id="about-contact">
+    <h2>About Learnify</h2>
+    <p>Learnify is a student-driven platform created by us, the students of CIEM (Calcutta Institute of Engineering and Management), with a simple mission — to help fellow MAKAUT University students who often struggle to find proper notes and reliable resources.
+      This platform offers semester-wise study materials, including curated notes, important links, and video lectures — all organized and easy to access. Whether you're preparing for exams or just need help with a concept, Learnify is here to support your learning journey.
+      Learnify provides organized MAKAUT notes and resources to help students access subject materials easily.</p>
+    <form id="feedback-form">
+
+<div class="contact-info">
+  <h3>Contact Us</h3>
+  <p>If you need any help regarding notes or access, feel free to email:
+  <a href="mailto:learnify.studynotes@gmail.com"><span style="color: #007BFF;">learnify.studynotes@gmail.com</span></a></p>
+</div>
+
+
+      <h3>Send Us Feedback</h3>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your feedback..."></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p><span style="color: #f4f4f4;">© 2025 Learnify - Built for MAKAUT students.</span></p>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
